@@ -1,0 +1,52 @@
+# Data and results (too large for git; see README for download instructions)
+data/
+results/
+plots/
+tables/
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Temporary
+*.tmp
+*.bak
+*.log
+sandbox/
+tmp/
+
+# Local config
+.claude/

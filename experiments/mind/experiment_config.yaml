@@ -1,0 +1,35 @@
+global:
+  random_seed: 42
+  replicates_per_config: 1
+  sir_simulations: 1000
+
+sem_percentile: [0, 1, 10, 50]
+
+sir:
+  infection_probabilities:
+  - 0.022530
+  - 0.023205
+  - 0.023881
+  - 0.024556
+  - 0.025232
+  - 0.025907
+  - 0.026583
+  - 0.027258
+  - 0.027934
+  - 0.028609
+
+
+methods_file: methods-files/to_run/all.txt
+
+betas: [0.99, 0.5, 0.1, 0.01]
+
+graphs:
+ sir_optimal:
+ - name: mind
+   type: real
+   rankings: auto
+   generate_rankings_params:
+    lengths: [2, 3, 4]
+    strategies: all
+    random_count: 3
+ fast_only: []
